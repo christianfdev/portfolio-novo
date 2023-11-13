@@ -15,7 +15,7 @@ nav {
 
 nav button {
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #22223B;
     border: none;
     border-radius: 10%;
     margin-bottom: 1rem;
@@ -27,20 +27,20 @@ nav button {
 .line {
     width: 1.5rem;
     height: 0.2rem;
-    background-color: #000;
+    background-color: #fff;
     margin: 5px;
     border-radius: 2px;
 }
 
 .menu-active {
     border-radius: 10%;
-    background-color: #22223B;
+    background-color: #fff;
     transition: background-color 500ms ease;
 
 }
 
 .menu-active div {
-    background-color: #fff;
+    background-color: #22223B;
 }
 
 
