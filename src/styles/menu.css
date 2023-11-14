@@ -1,0 +1,41 @@
+/*
+    Styles - Main Menu
+*/
+
+#menu {
+    display: none;
+    gap: 3rem;
+}
+
+#menu li {
+    list-style: none;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu li a:hover {
+    border-bottom:  1px solid #fff;
+    color: var(--hover-color);
+}
+
+
+/*
+    MQ's
+*/
+
+
+@media (min-width: 768px) { 
+
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #menu {
+        display: flex;
+    }
+  
+  }

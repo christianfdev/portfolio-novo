@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --hover-color: #C9ADA7;
+    --bg-color: #22223B;
+}

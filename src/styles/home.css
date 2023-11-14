@@ -1,14 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-
-body {
-    background: #22223B;
-}
-
-
 .home {
     height: calc(100vh - 12rem);
     display: flex;
@@ -19,7 +8,6 @@ body {
 
 .home h1, p{
     color: #fff;
-    font-family: 'Poppins', sans-serif;
 }
 
 .home h1 {
@@ -46,4 +34,4 @@ body {
         height: calc(100vh - 7rem);
    }
   
-  }
+}

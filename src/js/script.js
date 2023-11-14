@@ -1,10 +1,10 @@
 const button = document.getElementById('button-menu');
-const menu = document.getElementById('menu');
+const menuMob = document.getElementById('menu-mobile');
 
 function menuActive(){
     button.classList.toggle('menu-active');
-    menu.classList.toggle('active');
-    menu.classList.toggle('disabled');
+    menuMob.classList.toggle('active');
+    menuMob.classList.toggle('disabled');
 }
 
 button.addEventListener('click', menuActive);
