@@ -1,0 +1,47 @@
+/*
+    STYLES - About
+*/
+
+.about {
+    box-sizing: border-box;
+    height: 70vh;
+    padding: 1.5rem;
+}
+
+.about h1 {
+    color: #fff;
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+
+.content p {
+    text-align: justify;
+    font-weight: 300;
+}
+
+.content-foto {
+    width: 10rem;
+    height: 7rem;
+    border: 1px solid #fff;
+}
+
+.content-info {
+    display: flex;
+    gap: 1rem;
+}
+
+.content-info span {
+    font-weight: 500;
+}
+
+.text {
+    text-indent: 1rem;
+}
+

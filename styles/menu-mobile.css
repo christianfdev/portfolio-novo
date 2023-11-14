@@ -62,7 +62,7 @@ nav button {
 .disabled {
     transition: opacity 500ms ease-out;
     opacity: 0;
-    height: 0;
+    height: 0!important;
     overflow: hidden;
 }
 
