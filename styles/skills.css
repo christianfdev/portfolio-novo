@@ -1,0 +1,32 @@
+
+
+.skills {
+    box-sizing: border-box;
+    height: 60vh;
+    padding: 1.5rem;
+   
+}
+
+
+.skills-title {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+}
+
+.skills-title h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.skills-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.skills-icons div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
