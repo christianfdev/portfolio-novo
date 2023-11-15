@@ -3,7 +3,7 @@
 .skills {
     box-sizing: border-box;
     height: 60vh;
-    padding: 1.5rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
    
 }
 
@@ -29,4 +29,11 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+
+@media (max-height: 800px) {
+    .skills {
+        height: 80vh;
+    }
 }

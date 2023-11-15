@@ -45,3 +45,9 @@
     text-indent: 1rem;
 }
 
+
+@media (max-height: 800px) {
+    .about {
+        height: 80vh;
+    }
+}
