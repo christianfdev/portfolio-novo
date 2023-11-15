@@ -1,11 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Argentum sans', sans-serif;
 }
 
 :root{
-    --hover-color: #C9ADA7;
+    --hover-color: #0565d8;
     --bg-color: #22223B;
     --bg-secondary-color: #9A8C98;
     --color-clean: #F2E9E4;

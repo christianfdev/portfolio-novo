@@ -1,0 +1,33 @@
+.contact {
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+    gap: 1.5rem;
+
+}
+
+.contact h1 {
+    font-size: 2rem;
+}
+
+.contact h1, .contact p {
+    color: #fff;
+}
+
+.contact p {
+    letter-spacing: 0.08rem;
+}
+
+.contact-title-span {
+    color: var(--hover-color);
+    border-bottom: 3px solid #fff;
+}
+
+.contact-email {
+    font-weight: 300;
+    
+}

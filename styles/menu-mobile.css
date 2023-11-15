@@ -67,6 +67,7 @@ nav button {
 }
 
 #menu-mobile {
+    display: flex;
     box-sizing: border-box;
     position: absolute;
     top: 5rem;

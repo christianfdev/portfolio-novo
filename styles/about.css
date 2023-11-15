@@ -4,8 +4,8 @@
 
 .about {
     box-sizing: border-box;
-    height: 60vh;
-    padding: 1.5rem;
+    height: 55vh;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
 }
 
 .about h1 {
@@ -24,6 +24,7 @@
 .content p {
     text-align: justify;
     font-weight: 300;
+    color: #fff;
 }
 
 .content-foto {
@@ -35,6 +36,7 @@
 .content-info {
     display: flex;
     gap: 1rem;
+    line-height: 1.5rem;
 }
 
 .content-info span {
@@ -43,11 +45,12 @@
 
 .text {
     text-indent: 1rem;
+    line-height: 1.5rem;
 }
 
 
 @media (max-height: 800px) {
     .about {
-        height: 80vh;
+        height: 90vh;
     }
 }
