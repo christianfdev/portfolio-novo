@@ -24,10 +24,19 @@
 
 .contact-title-span {
     color: var(--hover-color);
-    border-bottom: 3px solid #fff;
 }
 
 .contact-email {
     font-weight: 300;
     
+}
+
+@media (min-height: 800px) {
+    .contact-linkedin{
+        width: 9rem;
+    }
+    
+    .contact-git {
+        width: 5.5rem;
+    }
 }
