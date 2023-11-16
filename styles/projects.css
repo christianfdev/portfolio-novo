@@ -10,6 +10,7 @@
 .projects-title h1 {
     color: #fff;
     font-size: 2rem;
+    width: 8.5rem;
 }
 
 .projects-cards {
@@ -21,16 +22,16 @@
 
 .projects-cards span {
     font-weight: 700;
-    color: var(--bg-third-color);
+    color: #0565d8;
 }
 
 .projects-cards p {
-    font-weight: 500;
-    color: var(--bg-third-color);
+    font-weight: 300;
+    color: #fff;
 }
 
 .card{
-    background-color: var(--color-clean);
+    border: solid #0565d8;
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 5px;
@@ -51,10 +52,11 @@
     width: calc(100vw - 5rem);
     height: 12rem;
     margin-bottom: 1rem;
+    border-radius: 5px;
 }
 
 .card button {
-    background-color: var(--bg-third-color);
+    background-color: #0565d8;
     padding: 0.7rem 1rem;
     color: #fff;
     border: none;
@@ -63,6 +65,10 @@
     font-weight: 500;
     margin-top: 0.5rem;
     
+}
+
+.card button:hover {
+    background-color: #00398c;
 }
 
 .card-git {

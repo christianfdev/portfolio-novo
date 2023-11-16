@@ -1,13 +1,22 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Argentum sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 :root{
     --hover-color: #0565d8;
-    --bg-color: #22223B;
+    --bg-color: #060619;
     --bg-secondary-color: #9A8C98;
-    --color-clean: #F2E9E4;
+    --white: #fff;
     --bg-third-color: #4A4E69;
+}
+
+
+.title-white{
+    border-bottom: 3px solid #0565d8;
+}
+
+.title-blue {
+    border-bottom: 3px solid #fff;
 }
