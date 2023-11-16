@@ -5,6 +5,8 @@
 
 .projects-title {
     padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
 }
 
 .projects-title h1 {
