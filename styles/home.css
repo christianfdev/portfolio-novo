@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.home-img {
+    margin-top: -5rem;
+    margin-bottom: -4rem;
+}
+
 .home h1, .home p{
     color: #fff;
 }
@@ -56,6 +61,10 @@
 @media (max-height: 800px) {
     .home p {
         font-size: 1.5rem;
+    }
+
+    .home-img {
+        margin-top: 0.5rem;
     }
 }
 
