@@ -18,7 +18,7 @@
 
 #menu li a:hover {
     border-bottom:  1px solid #fff;
-    color: var(--hover-color);
+    color: var(--primary-color);
 }
 
 

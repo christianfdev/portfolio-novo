@@ -5,18 +5,10 @@
 }
 
 :root{
-    --hover-color: #0565d8;
-    --bg-color: #060619;
-    --bg-secondary-color: #9A8C98;
-    --white: #fff;
+    --primary-color: #0565d8;
+    --secondary-color: #00398c;
     --bg-third-color: #4A4E69;
+    --bg-color: #060619;
 }
 
 
-.title-white{
-    border-bottom: 3px solid #0565d8;
-}
-
-.title-blue {
-    border-bottom: 3px solid #fff;
-}

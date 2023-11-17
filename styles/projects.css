@@ -24,7 +24,7 @@
 
 .projects-cards span {
     font-weight: 700;
-    color: #0565d8;
+    color: var(--primary-color);
 }
 
 .projects-cards p {
@@ -33,7 +33,7 @@
 }
 
 .card{
-    border: solid #0565d8;
+    border: solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 2rem;
     border-radius: 5px;
@@ -58,7 +58,7 @@
 }
 
 .card button {
-    background-color: #0565d8;
+    background-color: var(--primary-color);
     padding: 0.7rem 1rem;
     color: #fff;
     border: none;
@@ -70,7 +70,7 @@
 }
 
 .card button:hover {
-    background-color: #00398c;
+    background-color: var(--secondary-color)
 }
 
 .card button a {
@@ -88,3 +88,49 @@
 .card-git p {
     color: #fff;
 }
+
+.card-div-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media (min-width: 600px){
+
+    .card {
+        width: 60vw;
+    }
+    .card-img {
+        width: 50vw;
+        height: 15rem;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+    .card {
+        width: 60vw;
+    }
+    .card-img {
+        width: 40vw;
+       
+    }
+
+}
+
+@media (min-width: 1280px){
+
+    .card {
+        width: 60vw;
+    }
+    .card-img {
+        width: 50%;
+       
+    }
+
+}
+
+

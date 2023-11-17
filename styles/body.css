@@ -7,3 +7,41 @@ body {
 }
 
 
+@media (min-width: 640px){
+    .container {
+        padding: 0 4rem;
+    }
+    
+}
+
+@media (min-width: 768px){
+    .container {
+        padding: 0 8rem;
+    }
+    
+}
+
+@media (min-width: 1024px){
+    .container {
+        padding: 0 12rem;
+    }
+    
+}
+
+@media (min-width: 1280px){
+    .container {
+        padding: 0 16rem;
+    }
+    
+}
+
+@media (min-width: 1536px){
+    .container {
+        padding: 0 20rem;
+    }
+    
+}
+
+
+
+
