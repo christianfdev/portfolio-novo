@@ -11,4 +11,7 @@
     --bg-color: #060619;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
